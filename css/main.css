@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+@font-face {
+  font-family: "proxima_novaregular";
+  src: url("fonts/proximanova-regular-webfont.woff2") format("woff2"),
+    url("/fonts/proximanova-regular-webfont.woff") format("woff"),
+    url("/fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FuturaPT-Heavy";
+  src: url("/fonts/FuturaPT-Heavy.woff") format("woff"),
+    url("/fonts/FuturaPT-Heavy.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Georgia-italic";
+  src: url("/fonts/Georgia-italic.woff") format("woff"),
+    url("/fonts/Georgia-italic.woff2") format("woff2"),
+    url("/fonts/Georgia-italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("/fonts/Georgia.woff") format("woff"),
+    url("/fonts/Georgia.woff.woff2") format("woff2"),
+    url("/fonts/Georgia.ttf") format("truetype");
+}
+
+body {
+  background-color: #464f54;
+}
+.page {
+  width: 1063px;
+  padding: 0 127px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+}
+.title {
+  background-color: #181818;
+}
+.block_of_paramerts {
+  background-color: #fac02d;
+  padding: 22px 266px 25px 24px;
+}
+.block_of_paramerts img:not(:last-child) {
+  padding-right: 22px;
+}
+.RoyBatty {
+  color: #b4b4b4;
+  font-size: 20px;
+  letter-spacing: 0.219em;
+ }
+.RoyBatty,
+.title p {
+  font-family: "proxima_novaregular", sans serif;
+  text-transform: uppercase;
+
+}
+.title p {
+  color: #767676;
+  font-size: 15px;
+  line-height: 109px;
+  letter-spacing: 0.32em;
+}
+h1 {
+  font-family: "FuturaPT-Heavy" , PT Sans; Garamond; Bodoni; Open Sans;
+  color: #2a2a2a;
+  font-size: 77px;
+  line-height: 73px;
+  letter-spacing: 0.053em;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: #fefefe;
+  font-size: 48px;
+  line-height: 94px;
+  text-transform: capitalize;
+}
+.question {
+  font-family: "Georgia-italic", Times, serif;
+  font-size: 30px;
+  line-height: 62px;
+  color: #8f8f8f;
+}
+main p {
+  font-family: "Georgia" , Times, serif;
+  color: #000;
+  font-size: 27px;
+  line-height: 40px;
+}

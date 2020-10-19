@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'FuturaPT-Heavy';
+  src: url('FuturaPT-Heavy.woff') format('woff'),
+       url('FuturaPT-Heavy.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
