@@ -29,25 +29,34 @@ body {
   background-color: #464f54;
 }
 .page {
-  width: 1063px;
-  padding: 0 127px;
+  width: 596px;
   background-color: #ffffff;
   box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.22);
+  padding: 1px 127px;
+  margin: 124px 50px;
 }
 .title {
   background-color: #181818;
+  margin: -96px -465px -65px 78px;
 }
 .block_of_paramerts {
+  vertical-align: middle;
   background-color: #fac02d;
-  padding: 22px 266px 25px 24px;
+  padding: 18px 270px 15px 35px;
+  margin: 65px -464px 0px 129px;
 }
 .block_of_paramerts img:not(:last-child) {
-  padding-right: 22px;
+  padding-right: 12px;
 }
+.block_of_paramerts img {
+height: 24px;
+}
+
 .RoyBatty {
   color: #b4b4b4;
-  font-size: 20px;
-  letter-spacing: 0.219em;
+ font-size: 16px;
+    letter-spacing: 0.21em;
+    margin: 29px 49px 0px -27px
  }
 .RoyBatty,
 .title p {
@@ -57,35 +66,51 @@ body {
 }
 .title p {
   color: #767676;
-  font-size: 15px;
-  line-height: 109px;
-  letter-spacing: 0.32em;
+    font-size: 13px;
+    letter-spacing: 0.25em;
+    padding-top: 35px;
+    padding-left: 48px;
 }
-h1 {
-  font-family: "FuturaPT-Heavy" , PT Sans; Garamond; Bodoni; Open Sans;
-  color: #2a2a2a;
-  font-size: 77px;
-  line-height: 73px;
-  letter-spacing: 0.053em;
-  text-transform: uppercase;
-}
+
 h3 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
   color: #fefefe;
-  font-size: 48px;
-  line-height: 94px;
+  font-size: 39px;
   text-transform: capitalize;
+  padding-left: 46px;
+  padding-bottom: 50px;
+  margin: -18px 23px 0px -1px;
+}
+h1 {
+  font-family: "FuturaPT-Heavy" , PT Sans; Garamond; Bodoni; Open Sans;
+  color: #2a2a2a;
+    font-size: 62px;
+    line-height: 37px;
+    letter-spacing: 0.051em;
+    text-transform: uppercase;
+    margin: 37px 12px 0px -28px;
 }
 .question {
   font-family: "Georgia-italic", Times, serif;
-  font-size: 30px;
-  line-height: 62px;
-  color: #8f8f8f;
+  font-size: 24px;
+    line-height: 62px;
+    color: #8f8f8f;
+    margin: 2px 0 0 -30px;
 }
+main {
+   text-align: left;
+   margin: -7px 0px 0px -29px;
+}
+
 main p {
   font-family: "Georgia" , Times, serif;
-  color: #000;
-  font-size: 27px;
-  line-height: 40px;
+    color: #000;
+    font-size: 21px;
+    line-height: 33px;
+    word-spacing: 1px;
+    letter-spacing: 0.006em;
 }
+ main p:last-child {
+   margin-bottom: 175px;
+ }
