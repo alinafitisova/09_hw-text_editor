@@ -9,7 +9,8 @@
 @font-face {
   font-family: "FuturaPT-Heavy";
   src: url("/fonts/FuturaPT-Heavy.woff") format("woff"),
-    url("/fonts/FuturaPT-Heavy.woff2") format("woff2");
+    url("/fonts/FuturaPT-Heavy.woff2") format("woff2"),
+   url("/fonts/FuturaPT-Heavy.ttf") format("truetype");
 }
 @font-face {
   font-family: "Georgia-italic";
@@ -83,7 +84,7 @@ h3 {
   margin: -18px 23px 0px -1px;
 }
 h1 {
-  font-family: "FuturaPT-Heavy" , PT Sans; Garamond; Bodoni; Open Sans;
+  font-family: "FuturaPT-Heavy" ,  Garamond , Open Sans;
   color: #2a2a2a;
     font-size: 62px;
     line-height: 37px;
